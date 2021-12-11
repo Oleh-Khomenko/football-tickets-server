@@ -1,0 +1,24 @@
+{
+  "name": "football-tickets-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Oleh-Khomenko/football-tickets-server.git"
+  },
+  "author": "Oleh <olehhomenko12@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Oleh-Khomenko/football-tickets-server/issues"
+  },
+  "homepage": "https://github.com/Oleh-Khomenko/football-tickets-server#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
