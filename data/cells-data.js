@@ -43,7 +43,8 @@ for (let i = 0; i < 8; i++) {
         id: counter,
         price: price,
         color: color,
-        soldOut: false,
+        soldOut: !!Math.round(Math.random()),
+        places: [],
       }
     );
   }
