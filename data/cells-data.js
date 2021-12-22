@@ -1,9 +1,6 @@
 'use strict'
 const prices = require('./prices');
 const colors = require('./colors');
-const { COLOR_PREMIUM,
-  COLOR_HIGH
-} = require('./colors');
 
 const cellsData = [];
 
@@ -24,7 +21,7 @@ for (let i = 0; i < 8; i++) {
   const temp = [];
   for (let j = 0; j < 12; j++) {
     counter += 1;
-    let color = COLOR_HIGH;
+    let color = colors.COLOR_HIGH;
     let price = prices.HIGH;
     if (matchLow(i, j)) {
       color = colors.COLOR_LOW;
@@ -44,7 +41,6 @@ for (let i = 0; i < 8; i++) {
         price: price,
         color: color,
         soldOut: !!Math.round(Math.random()),
-        places: [],
       }
     );
   }
